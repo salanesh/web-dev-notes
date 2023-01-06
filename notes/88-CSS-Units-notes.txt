@@ -1,0 +1,11 @@
+Title: CSS Units Revisited
+
+Notes:
+1. In css unit measurement is either static or relative.
+2. Examples of static units: pixels, inches, millimeters.
+3. Examples of relative units: percentages, ems, rems.
+4. Most percentage units are relative to the size of the parent element. Example body>div width:50%, the div will only be 50% of the size of the body. There are some properties that when percentage units are used are relative to something else like the size of the font. Example: line-height: 50%, line-height is 50% of the size of the font of the element.
+
+Summary:
+I learned that percentage units have some depth in them. I assumed that it is only relative to the size of the parent element.
+

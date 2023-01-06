@@ -1,0 +1,17 @@
+Title: Opacity and Alpha Channel
+
+Notes:
+1. Opacity is the opposite of transparency. Meaning that if an element has an opacity of 1 it is completely opaque and wont show any of the color of the parent element. If an element has an alpha channel of 1 then it is completely transparent.
+2. Alpha channel is just the measurement of how transparent an element is.
+3. Using the opacity css property will change the opacity of child elements as well while alpha channel does not.
+4. Examples:
+    div{
+        opacity: 0.3
+    }
+    .wakata{
+        rgba(255,255,255,0.7)
+    }
+
+Summary:
+
+

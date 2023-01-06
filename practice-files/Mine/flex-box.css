@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.big-box {
+  width: 1100px;
+  height: 300px;
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+.little-box {
+  width: 150px;
+  height: 150px;
+  /* background-color: green; */
+  border: 1px solid;
+  flex-grow: 1;
+}
+/* .little-box:nth-of-type(4) {
+  align-self: flex-start;
+}
+.little-box:nth-of-type(5) {
+  align-self: flex-end;
+} */

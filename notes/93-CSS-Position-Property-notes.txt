@@ -1,0 +1,27 @@
+Title: The Position Property
+
+Notes:
+1. The position property dictates how elements are positioned relative to something else. 
+2. Examples are: position:static,position:relative,position:absolute,position:fixed and position:sticky.
+3. To offset the positions of elements, I must use other properties along with the position property like top:40px,left:20px, etc.
+4. The position:static property does not do shit, even with the top,left,bottom,right properties. This is the default position set by the browser because it follows the normal flow of the document.
+5. The position:relative property positions an element relative to its own position normally. This leaves a ghost element that takes up the space that the offset element would normally take. 
+    Example: div .waruy{
+                    position:relative;
+                    top:100px;
+                    left:100px;
+             }
+             What this does is move the div with the class of waruy 100px FROM the top and 100px FROM the left of its original position. It will cover any element that gets in its way.
+6. The position:absolute property works by removing the element from the document and then offsetting relative to the position of it's parent element and if no parent element is found then from the body. So this means it leaves no "ghost" element that takes its space.
+    Example: div .isha{
+                    position:absolute;
+                    top: 10px;
+                    left: 10px;
+            }
+            What this will do is leave no ghost and make the div with the class of isha offset itself 10px from the top and left of its containing element. Note that unlike the relative property it GETS covered by any elements in its way.
+7. The position:fixed property is good for navbars. Why? because it is positioned relative to the initial containing block which is normally the <body> element. And it fucking sticks there no matter how big the body gets and it covers other elements too so when I scroll down or up it remains in the same position.
+8. The position:sticky property works like position:static and position:fixed combined. It works by leaving it in the flow of the document but if the user moves like scrolling down it moves along with the user relative to the set position. I can see it being useful for popup ads and shit.
+
+Summary:
+
+

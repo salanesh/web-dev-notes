@@ -1,0 +1,12 @@
+Title: 87. Display Property
+
+Notes:
+1. Elements have default css styles applied by the browser. That includes the display property.
+2. The most important display properties are display:block, display: inline, and display: inline-block.
+3. display:inline is when the elements are smushed together inside one line, this property does not respect width and height properly so styling elements with them are gonna cause visual errors.
+4. display: block is when an element takes up an entire row even when it is not big enough to do so. This property actually respects the width and height of the block element.
+5. display:inline-block is when an element can share space in a row with other inline or inline-block elements however this property respects the width and height of the element like block.
+
+Summary:
+A good refresher on display properties in css. 
+

@@ -1,0 +1,8 @@
+.pokemon-div {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+.pokemon-div img {
+  display: block;
+}

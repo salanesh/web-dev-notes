@@ -1,0 +1,17 @@
+Title: CSS Units: EMS
+
+Notes:
+
+<article>
+<h2>wakata</h2>
+lorem ipsum
+</article>
+
+1. 1em equals the font size of its parent element.
+   Example: <article> has a font-size of 20px, an <h2> inside it that has a font-size of 2em will have a font size of 40px.
+2. For properties that are not font-size, ems works differently, it will instead scale off of the size of the element itself and not the parent.
+3. Example: If we set margin-left:2ems it wont be 40px like the example above, instead it will scale off the font size of the element itself which is 40px, so it becomes 80px. 
+4. The problem with this is that it causes unintended side effects.
+Summary:
+
+
